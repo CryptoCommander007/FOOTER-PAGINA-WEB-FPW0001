@@ -1,0 +1,78 @@
+/*******************************************************************************************************/
+/*******************************************************************************************************/
+/***************************************** FOOTER-PAGINA-WEB-FPW0001 ***********************************/
+/*******************************************************************************************************/
+/*******************************************************************************************************/
+.FPW0001-footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.FPW0001-footer h4 {
+  color: #fff;
+}
+
+.FPW0001-footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.FPW0001-footer ul li {
+  margin-bottom: 10px;
+}
+
+.FPW0001-footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.FPW0001-footer ul li a:hover {
+  color: #ccc;
+}
+
+.FPW0001-footer form {
+  margin-top: 20px;
+}
+
+.FPW0001-footer form input[type="email"] {
+  width: 70%;
+  padding: 10px;
+}
+
+.FPW0001-footer form button {
+  background-color: #1abc9c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.FPW0001-footer form button:hover {
+  background-color: #16a085;
+}
+
+.FPW0001-footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.FPW0001-footer-column {
+  width: 12%;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .FPW0001-footer-column {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+
+.FPW0001-footer-text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
